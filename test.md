@@ -1,1 +1,1 @@
-IyBUZXN0IGZpbGUKClRlc3RpbmcgZmlsZSBjcmVhdGlvbiB3aXRoIHNpbXBsZSBjb250ZW50
+{"content": "# Test file\n\nTesting file creation with simple content", "encoding": "utf8"}
