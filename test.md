@@ -1,6 +1,1 @@
-{
-  "content": {
-    "content": "# Test file\n\nTesting file creation with simple content",
-    "encoding": "utf8"
-  }
-}
+{"content": "# Test file\n\nTesting file creation", "encoding": "utf8"}
