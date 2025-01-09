@@ -1,1 +1,2 @@
-{"encoding": "base64", "content": "IyBUZXN0IGZpbGU="}
+# Test file
+Testing file creation with simple content
