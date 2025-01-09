@@ -43,8 +43,6 @@ plugins:
             show_root_heading: true
             show_object_full_path: false
             heading_level: 2
-  - git-revision-date-localized:
-      enable_creation_date: true
 
 nav:
   - Home: index.md
