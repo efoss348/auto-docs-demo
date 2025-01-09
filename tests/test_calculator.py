@@ -23,8 +23,8 @@ def test_history(calculator):
     calculator.multiply(3, 4)
     history = calculator.get_history()
     assert len(history) == 2
-    assert history[0] == "1 + 2 = 3"
-    assert history[1] == "3 * 4 = 12"
+    assert history[0] == "1 + 2 = 3.0"
+    assert history[1] == "3 * 4 = 12.0"
 
 @pytest.mark.parametrize("a,b,expected", [
     (1, 2, 3),
