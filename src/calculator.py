@@ -29,7 +29,7 @@ class Calculator:
             >>> calc.add(1, 2)
             3.0
         """
-        result = a + b
+        result = float(a + b)
         self.history.append(f"{a} + {b} = {result}")
         return result
     
@@ -48,7 +48,7 @@ class Calculator:
             >>> calc.multiply(2, 3)
             6.0
         """
-        result = a * b
+        result = float(a * b)
         self.history.append(f"{a} * {b} = {result}")
         return result
     
