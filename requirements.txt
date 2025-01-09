@@ -1,1 +1,7 @@
-bWtkb2NzPj0xLjUuMApta2RvY3MtbWF0ZXJpYWw+PTkuMC4wCm1rZG9jc3RyaW5ncz49MC4yNC4wCm1rZG9jc3RyaW5ncy1weXRob24+PTEuNy4wCnB5dGVzdD49Ny4wLjAKYmxhY2s+PTIzLjAuMAppc29ydD49NS4wLjA=
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+mkdocstrings>=0.24.0
+mkdocstrings-python>=1.7.0
+pytest>=7.0.0
+black>=23.0.0
+isort>=5.0.0
