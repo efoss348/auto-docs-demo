@@ -1,1 +1,3 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","content":{"content":"# Test file\n\nTesting file creation","encoding":"utf8"}}
+# Test file
+
+Testing file creation with simple content
