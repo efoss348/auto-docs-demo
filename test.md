@@ -1,2 +1,1 @@
-# Test file
-Testing file creation with simple content
+{"content": "IyBUZXN0IGZpbGUKClRlc3RpbmcgZmlsZSBjcmVhdGlvbiB3aXRoIHNpbXBsZSBjb250ZW50", "encoding": "base64"}
