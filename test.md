@@ -1,1 +1,1 @@
-{"type":"object","properties":{"content":{"content":"# Test file\n\nTesting file creation","encoding":"utf8"}}}
+{"$schema":"http://json-schema.org/draft-07/schema#","content":{"content":"# Test file\n\nTesting file creation","encoding":"utf8"}}
