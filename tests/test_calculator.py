@@ -17,6 +17,25 @@ def test_multiply(calculator):
     assert calculator.multiply(-2, 3) == -6
     assert calculator.multiply(0.1, 0.2) == pytest.approx(0.02)
 
+def test_power(calculator):
+    """Test power function."""
+    assert calculator.power(2, 3) == 8.0
+    assert calculator.power(3, 0.5) == pytest.approx(1.7320508075688772)
+    assert calculator.power(2, 0) == 1.0
+    assert calculator.power(1000, -1) == 0.001
+
+def test_average(calculator):
+    """Test average calculation."""
+    assert calculator.average([1, 2, 3, 4, 5]) == 3.0
+    assert calculator.average([0, 0, 0]) == 0.0
+    assert calculator.average([1.5, 2.5]) == 2.0
+
+def test_standard_deviation(calculator):
+    """Test standard deviation calculation."""
+    assert calculator.standard_deviation([2, 4, 4, 4, 5, 5, 7, 9]) == pytest.approx(2.0)
+    assert calculator.standard_deviation([1, 1, 1, 1]) == 0.0
+    assert calculator.standard_deviation([1, 2]) == pytest.approx(0.5)
+
 def test_history(calculator):
     """Test operation history tracking."""
     calculator.add(1, 2)
