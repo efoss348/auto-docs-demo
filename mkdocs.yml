@@ -6,6 +6,31 @@ theme:
     - navigation.sections
     - navigation.expand
     - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 plugins:
   - search
@@ -16,11 +41,28 @@ plugins:
           options:
             show_source: true
             show_root_heading: true
+            show_object_full_path: false
+            heading_level: 2
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 nav:
   - Home: index.md
+  - Getting Started:
+    - Installation: installation.md
+    - Examples: examples.md
   - API Reference: api.md
-  - Contributing: contributing.md
+  - Development:
+    - Contributing: contributing.md
+    - Development Guide: development.md
 
 repo_url: https://github.com/efoss348/auto-docs-demo
 repo_name: efoss348/auto-docs-demo
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025 Your Name
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/efoss348/auto-docs-demo
